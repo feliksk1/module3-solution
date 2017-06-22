@@ -1,11 +1,50 @@
 body {
 	font-size: 16px;
-	color: #fff;
-	background-color: #61122f;
 	font-family: 'Oxygen', sans-serif;
 }
 #header-nav {
 	background-color: #f6b319;
 	border-radius: 0;
-	border: 0;
+	border: 1;
+	border-color: black;
+	padding-bottom: 0px;
+	padding-top: 0px;
+
 }
+
+div>ul {
+	text-align: center;
+    background-color: #f6b319;
+    margin: 0,0,0,0;
+}
+
+#drop_down_menu a:hover {
+  background: #E7E7E7;
+}
+
+h1 {
+	background-color: white;
+	color: black;
+}
+
+.menu_item {
+	background-color: #f6b319;
+	text-align: center;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.menu_title {
+	position: absolute;
+	top: 0;
+    right: 0;
+	font-weight: bold;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#menu_container {
+	position: relative;
+}
+
